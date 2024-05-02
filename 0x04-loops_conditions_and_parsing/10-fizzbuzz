@@ -4,20 +4,18 @@
 # if number is multiple of 3 displays "Fizz"
 # if number is multiple of 5 displays "Buzz"
 
-num=1
-while [ $num -le 100 ]
+for num in {1..100}
 do
-	if (( $num % 3 == 0 && $num % 5 == 0 ))
+	if (( num % 3 == 0 && num % 5 == 0 ))
 	then
 		echo "FizzBuzz"
-	elif (( $num % 3 == 0 ))
+	elif (( num % 3 == 0 ))
 	then
 		echo "Fizz"
-	elif (( $num % 5 == 0 ))
+	elif (( num % 5 == 0 ))
 	then
 		echo "Buzz"
 	else
 		echo "$num"
 	fi
-	(( num++ ))
 done
