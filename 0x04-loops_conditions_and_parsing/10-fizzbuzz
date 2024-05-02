@@ -5,7 +5,7 @@
 # if number is multiple of 5 displays "Buzz"
 
 num=1
-while [ num -le 100 ]
+while [ $num -le 100 ]
 do
 	if (( $num % 3 == 0 && $num % 5 == 0 ))
 	then
@@ -17,7 +17,7 @@ do
 	then
 		echo "Buzz"
 	else
-		echo "%num"
+		echo "$num"
 	fi
 	(( num++ ))
 done
