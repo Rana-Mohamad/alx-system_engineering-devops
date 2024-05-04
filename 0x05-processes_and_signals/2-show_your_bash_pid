@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# It displays lines containing the bash word
+# using previous exercise.
+
+./1-list_your_processes | grep "bash"
