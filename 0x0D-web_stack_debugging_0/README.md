@@ -2,9 +2,8 @@
 
 ## Tasks:
 
-0.    Give me a page!:
+0.    Give me a page!:\
 In this first debugging project, you will need to get Apache to run on the container and to return a page containing Hello Holberton when querying the root of it.
-
 *    Example:
 ```shell
 vagrant@vagrant:~$ docker run -p 8080:80 -d -it holbertonschool/265-0 
