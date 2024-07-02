@@ -16,11 +16,11 @@ In this first debugging project, you will need to get Apache to run on the conta
            vagrant@vagrant:~$ 
            ```
 
-Here we can see that after starting my Docker container, I curl the port 8080 mapped to the Docker container port 80, it does not return a page but an error message. Note that you might also get the error message curl: (52) Empty reply from server.
+           Here we can see that after starting my Docker container, I curl the port 8080 mapped to the Docker container port 80, it does not return a page but an error message. Note that you might also get the error message curl: (52) Empty reply from server.
 
-```shell
-vagrant@vagrant:~$ curl 0:8080 
-Hello Holberton 
-vagrant@vagrant:~$ 
-```
-After connecting to the container and fixing whatever needed to be fixed (here is your mission), you can see that curling port 80 return a page that contains Hello Holberton. Paste the command(s) you used to fix the issue in your answer file.
+           ```shell
+           vagrant@vagrant:~$ curl 0:8080 
+           Hello Holberton 
+           vagrant@vagrant:~$ 
+           ```
+           After connecting to the container and fixing whatever needed to be fixed (here is your mission), you can see that curling port 80 return a page that contains Hello Holberton. Paste the command(s) you used to fix the issue in your answer file.
